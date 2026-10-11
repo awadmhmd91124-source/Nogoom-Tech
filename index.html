@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <!-- charset: makes sure characters display correctly -->
+    <meta charset="UTF-8">
+    <!-- viewport: the most important line for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nogoom Tech</title>
+    <!-- linking the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+    <!-- ========== 1) Navbar ========== -->
+    <nav class="navbar">
+        <!-- container: a fixed class that centers the content -->
+        <div class="container nav-container">
+            <a href="#" class="logo">Nogoom <span>Tech</span></a>
+            <!-- menu links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ========== 2) Hero section ==========
+         its background image is set in style.css (background-image) -->
+    <header class="hero" id="home">
+        <div class="container">
+            <h1>Welcome to Nogoom Tech</h1>
+            <p>We build modern, fast websites that fit your needs</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- ========== 3) About section ==========
+         we use <img> here because the photo is real content -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Us</span> </h2>
+            <div class="about-container">
+                <img src="images/team.jpg" alt="Nogoom Tech team working together">
+                <p>
+                    We are a company specialized in web and app development.
+                    We believe technology should be easy and accessible for
+                    everyone. Our team works around the clock to deliver the
+                    best solutions with the highest quality and lowest cost.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 4) Services section ========== -->
+    <section class="services" id="services">
+        <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+        <div class="container cards-container">
+
+            <!-- every card has the same structure: image + title + text -->
+            <div class="card">
+                <img src="images/service-web.jpg" alt="Web design service">
+                <h3>Web Design</h3>
+                <p>We design modern websites that work on every screen.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/service-app.jpg" alt="App development service">
+                <h3>App Development</h3>
+                <p>We build fast, easy-to-use web applications.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/service-marketing.jpg" alt="Digital marketing service">
+                <h3>Digital Marketing</h3>
+                <p>We help you reach your customers and boost your sales.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== 5) Contact section ========== -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact <span class="highlight">Us</span></h2>
+        <div class="container contact-container">
+
+            <div class="contact-box">
+                <span class="contact-icon">📞</span>
+                <h3>Call Us</h3>
+                <p>+20 100 123 4567</p>
+            </div>
+
+            <div class="contact-box">
+                <span class="contact-icon">✉️</span>
+                <h3>Email</h3>
+                <p>info@nogoom.com</p>
+            </div>
+
+            <div class="contact-box">
+                <span class="contact-icon">📍</span>
+                <h3>Address</h3>
+                <p>Cairo, Egypt</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== 6) Footer ========== -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Nogoom Tech — All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
